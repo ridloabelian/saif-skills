@@ -43,38 +43,38 @@ SAIF was externalized in 2023 from Google's internal AI security framework and i
 - `saif-control-training-data-sanitization`
 - `saif-control-user-data-management`
 - `saif-control-model-data-inventory`
-- `saif-control-model-data-access-control`
+- `saif-control-model-data-access`
 - `saif-control-model-data-integrity`
-- `saif-control-secure-by-default-ml-tooling`
+- `saif-control-secure-ml-tooling`
 - `saif-control-input-validation`
 - `saif-control-output-validation`
 - `saif-control-adversarial-training`
-- `saif-control-application-access-management`
+- `saif-control-application-access`
 - `saif-control-user-transparency`
 - `saif-control-agent-user-control`
 - `saif-control-agent-permissions`
 - `saif-control-agent-observability`
+
+### 4. Assurance (`saif-assurance/`)
 - `saif-control-red-teaming`
 - `saif-control-vulnerability-management`
 - `saif-control-threat-detection`
 - `saif-control-incident-response`
+
+### 5. Governance (`saif-governance/`)
 - `saif-control-user-policies`
 - `saif-control-internal-policies`
 - `saif-control-product-governance`
 - `saif-control-risk-governance`
 
-### 4. Agent Security (`saif-agents/`)
-- `saif-agent-components` — Application, Perception, Reasoning Core, Orchestration, Response Rendering
+### 6. Agent Security (`saif-agents/`)
 - `saif-agent-security-guide` — Comprehensive agent security hardening
 - `saif-agent-shadow-agents` — Governance for unauthorized autonomous agents
 
-### 5. Google Cloud Integration (`saif-gcp/`)
+### 7. Google Cloud Integration (`saif-gcp/`)
 - `saif-gcp-security-tools` — VPC Service Controls, Model Armor, Cloud Armor, reCAPTCHA
-- `saif-gcp-fraud-defense` — AI-powered fraud detection and prevention
-- `saif-gcp-executive-protection` — Personal cyberattack defense for executives
-- `saif-gcp-board-governance` — CISO/board-level AI security governance
 
-### 6. Content Safety (`saif-safety/`)
+### 8. Content Safety (`saif-safety/`)
 - `saif-safety-ai-generated-media` — SynthID, C2PA, content credentials
 - `saif-safety-scam-protection` — Scam detection, fraud prevention, user education
 - `saif-safety-account-security` — Passkeys, 2SV, recovery contacts, password management
